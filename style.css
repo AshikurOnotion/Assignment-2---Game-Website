@@ -190,22 +190,14 @@ left: 26rem;
     margin-bottom: 48px;
 }
 
-.games-des {
+.online-game-feature {
     display: flex;
     padding: 0 240px;
+    gap: 20px;
     text-align: left;
-    font-size: 20px;
-    font-weight: 500;
-    gap: 120px;
-    justify-content: center;
-
 }
 
-.online-games img {
-    width: 342px;
-    height: 400px;
-    margin-left: 24px;
-}
+/
 /* online game end */
 
 /* instant play section start */
