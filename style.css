@@ -12,6 +12,10 @@
     color: aliceblue;
 }
 
+.hero-banner button:hover {
+    cursor: pointer;
+}
+
 .btn-secondary {
     margin-left:1.5rem ;
     border-radius: 3rem;
@@ -25,6 +29,7 @@
 /* share style end */
 
 /* navbar style start */
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -43,6 +48,12 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #3C354F
+}
+nav .logo :hover {
+    cursor: pointer;
+}
+nav .nav-img :hover {
+    cursor: pointer;
 }
 .nav-content {
     display: flex;
@@ -142,6 +153,10 @@ position: relative;
 left: 26rem;
 }
 
+.gamer-content button:hover {
+    cursor: pointer;
+}
+
 .quote-style {
     color: #534C64;
     font-size: 2rem;
@@ -153,6 +168,8 @@ left: 26rem;
     height: 489px;
     padding-left: 10rem;
 }
+
+
 
 /* gamer-section end */
 
@@ -195,9 +212,39 @@ left: 26rem;
     padding: 0 240px;
     gap: 20px;
     text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #534C64;
+    position: relative;
+}
+.overlay {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  left: 240px;
+  width: 342px;
+  height: 400px;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(0, 0, 0, 0.382);
+}
+.icon-text {
+  color: white;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+
 }
 
-/
+.online-game-feature:hover .overlay {
+    opacity: 1;
+  }
+
+
+
 /* online game end */
 
 /* instant play section start */
@@ -211,6 +258,7 @@ left: 26rem;
     margin-top:120px ;
     
 }
+
 
 .instant-play-content h3 {
     font-size: 48px;
@@ -269,6 +317,11 @@ left: 26rem;
     border: none;
     padding: 10px 10px;
 }
+.gamelist button:hover {
+    cursor: pointer;
+    border: 1px solid #FF42A5;
+}
+
 .gamelist button img {
     width: 60px;
     height: 60px;
@@ -294,6 +347,9 @@ left: 26rem;
     margin-bottom: 0
     ;
 }
+.footer-logo img:hover {
+    cursor: pointer;
+}
 
 .footer-menu {
     color: white;
@@ -308,6 +364,9 @@ left: 26rem;
     font-size: 18px;
 
 }
+.footer-menu:hover {
+    cursor: pointer;
+}
 
 .social-icon {
     margin-top: 66px;
@@ -319,6 +378,10 @@ left: 26rem;
     width: 40px;
     height: 40px;
     margin-bottom: 0;
+}
+
+.social-icon:hover {
+    cursor: pointer;
 }
 
 .footer-rules {
@@ -335,6 +398,9 @@ left: 26rem;
     font-size: 16px;
 
 }
+.footer-rules:hover {
+    cursor: pointer;
+}
 
 .copyright {
     margin-top: 28px;
@@ -343,4 +409,25 @@ left: 26rem;
 }
 
 
+@media screen and (max-width: 425px) {
+ nav {
+    display: block;
+    margin: 25px 80px;
+    align-items: center;
 
+ }
+ .nav-content {
+    display: block;
+    margin-bottom: 50px;
+ }
+ nav .logo {
+
+    text-align: center;
+    margin-bottom: 30px;
+ }
+ .nav-follow {
+    margin-top: 30px;
+ }
+.hero-banner {
+    flex-wrap: wrap;
+}
