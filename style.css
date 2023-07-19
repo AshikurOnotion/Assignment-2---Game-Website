@@ -35,6 +35,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     margin-top: 37px;
+    padding: auto;
+    overflow: hidden;
 }
 
 
@@ -79,6 +81,8 @@ nav .nav-img :hover {
     display: flex;
     gap:4.25rem ;
     align-items: center;
+    overflow: hidden;
+
 
 }
 .photo1 {
@@ -406,6 +410,7 @@ left: 26rem;
    padding-bottom: 130px;
 }
 
+/* responsive start */
 
 @media screen and (max-width: 425px) {
  nav {
@@ -526,5 +531,4 @@ left:0
 .footer-rules {
     flex-wrap: wrap;
 }
-
 }
