@@ -258,3 +258,32 @@ left: 26rem;
 }
 
 /* instant play section end */
+
+/* gamelist section start */
+.gamelist {
+    margin-top: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 240px ;
+    gap: 27px;
+
+}
+.gamelist button {
+    border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    gap:16px; 
+    border: none;
+    padding: 10px 10px;
+}
+.gamelist button img {
+    width: 60px;
+    height: 60px;
+}
+.gamelist button p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* gamelish end */
