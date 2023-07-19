@@ -207,3 +207,54 @@ left: 26rem;
     margin-left: 24px;
 }
 /* online game end */
+
+/* instant play section start */
+
+.instant-play-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    padding-left: 439px;
+    margin-top:120px ;
+    
+}
+
+.instant-play-content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 200px;
+    margin-bottom: 0;
+}
+
+.instant-play-content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-play-content p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 200px;
+    justify-content: center;
+}
+
+.instant-play-section .main-img{
+    width: 500px;
+    height: 500px;
+}
+
+.instant-play-section .secondary-img {
+    position: relative;
+    right: 600px;
+    top: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+/* instant play section end */
